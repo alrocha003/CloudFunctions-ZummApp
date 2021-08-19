@@ -4,7 +4,7 @@ const app = express()
 
 const MongoClient = require('mongodb').MongoClient;
 
-const uri = "mongodb://alrocha003:gamersg3@ds361998.mlab.com:61998/db_zuummapp";
+const uri = "your_uri";
 
 MongoClient.connect(uri, { useUnifiedTopology: true }, (err, client) => {
     if (err) return console.log(err)
